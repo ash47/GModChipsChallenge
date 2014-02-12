@@ -1,0 +1,29 @@
+"Gamemode"
+{
+	"base"		"base"
+	"title"		"Chip's Challenge"
+	"maps"		"^cc_"
+	"menusystem"	"1"
+
+	"settings"
+	{
+		1
+		{
+			"name"		"sk_maxfrags"
+			"text"		"Max Frags"
+			"help"		"The maxiumum number of frags before a map change"
+			"type"		"numeric"
+			"default"	"20"
+		}
+
+		
+		2
+		{
+			"name"		"sk_grenades"
+			"text"		"Allow Grenades"
+			"help"		"If enabled then grenades are enabled"
+			"type"		"checkbox"
+			"default"	"1"
+		}
+	}
+}
